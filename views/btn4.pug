@@ -1,0 +1,27 @@
+extends base 
+
+block content 
+    div.centered
+        div.position 
+            div.title 
+                a(href=`/btn0/${questions[0].slug}`)
+                    h1 Quiz App 
+
+            div.quiz 
+                div.bg-red
+
+                h3#result= `Questions ${questions[4].score + 4}/4`
+
+                p#question= questions[4].title
+
+                div#res-1.res
+                    button.chooses#btn(name='programming-language')= questions[4].right
+                div#res-1.res
+                    button.chooses#btn(name='markup-language')= questions[4].btn2
+                div#res-1.res 
+                    button.chooses#btn(name='robotic-language')= questions[4].btn3
+                div#res-1.res
+                    button.chooses#btn(name='machine-language')= questions[4].btn4
+
+                div.next 
+                    a#next(href=`/responses`) Next

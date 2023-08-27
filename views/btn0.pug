@@ -1,0 +1,31 @@
+extends base 
+
+block append head
+    //- script(src="/js/index.js") 
+    
+
+block content 
+    div.centered
+        div.position 
+            div.title 
+                a(href=`/btn0/${questions[0].slug}`)
+                    h1 Quiz App 
+
+            div.quiz 
+                div.bg-red
+
+                h3#result= `Questions ${questions[0].score + 0}/4`
+
+                p#question= questions[0].title
+
+                div#res-1.res
+                    button.chooses1#btn(name='programming-language', value='programming-language')= questions[0].btn1
+                div#res-1.res
+                    button.chooses2#btn(name='markup-language', value='markup-language')= questions[0].right
+                div#res-1.res 
+                    button.chooses3#btn(name='robotic-language', value='robotic-language')= questions[0].btn3
+                div#res-1.res
+                    button.chooses4#btn(name='machine-language', value='machine-language')= questions[0].btn4
+
+                div.next 
+                    a#next(href=`/btn1/${questions[1].slug}`) Next

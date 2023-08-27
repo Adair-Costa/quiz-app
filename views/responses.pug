@@ -1,0 +1,24 @@
+extends base 
+
+block append head
+    script(src='/js/responses.js') 
+
+block content 
+    div.centered
+        div.element
+            div 
+                h1 Your Answers
+                hr
+            
+            div.answer 
+                h1.red#answer-1 Answer0: Wrong
+            div.answer 
+                h1.red#answer-2 Answer1: Wrong
+            div.answer 
+                h1.red#answer-3 Answer2: Wrong
+            div.answer 
+                h1.red#answer-3 Answer4: Wrong
+
+            div.btns 
+                div.restart 
+                    a(href=`/btn0/${questions[0].slug}`) Reload

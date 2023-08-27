@@ -1,0 +1,42 @@
+[
+  {
+    "score": 0,
+    "title": "HTML is a...",
+    "btn1": "Programming language",
+    "right": "Markup language",
+    "btn3": "Robotic language",
+    "btn4": "Machine language"
+  },
+  {
+    "score": 0,
+    "title": "JavaScript is...",
+    "right": "Programming language",
+    "btn2": "Machine language",
+    "btn3": "Robotic language",
+    "btn4": "Markup language"
+  },
+  {
+    "score": 0,
+    "title": "MongoDB is...",
+    "btn1": "Robotic language",
+    "btn2": "Markup language",
+    "btn3": "Programming language",
+    "right": "Database software"
+  },
+  {
+    "score": 0,
+    "title": "NodeJs is...",
+    "btn1": "Machine language",
+    "btn2": "Markup language",
+    "right": "Open source software",
+    "btn4": "Programming language"
+  },
+  {
+    "score": 0,
+    "title": "CSS3 is...",
+    "right": "Language style",
+    "btn2": "Data base",
+    "btn3": "Lib",
+    "btn4": "Framework"
+  }
+]

@@ -1,0 +1,53 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.element {
+  width: 85%;
+  height: 33rem;
+  background-color: #001a33;
+  border-radius: 1.2rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.answer {
+  text-align: center;
+  color: #ffffff;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restart {
+  width: 80%;
+  height: 3rem;
+  border-radius: 1.2rem;
+  background-color: #0066ff;
+  border: none;
+  padding: 0.8rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btns .restart a {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
